@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80vw;
+  height: 50vh;
+}
+
+.card {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+#card1 {
+  background: green;
+}
+
+#card2 {
+  background: yellow;
+}
+
+#card3 {
+  background: black;
+}
+
+#card4 {
+  background: pink;
+}
+
+#card5 {
+  background: orangered;
+}
+
+#card6 {
+  background: lightblue;
+}
+
+#card7 {
+  background: purple;
+}
+
+#card8 {
+  background: violet;
+}
+
+.main:hover #card1 {
+  transform: translateX(-100px) rotate(-40deg);
+}
+
+.main:hover #card2 {
+  transform: translateX(-50px) rotate(-30deg);
+}
+
+.main:hover #card3 {
+  transform: translateX(0px) rotate(-20deg);
+}
+
+.main:hover #card4 {
+  transform: translateX(50px) rotate(0deg);
+}
+
+#card1:hover {
+  transform: translateX(-100px) rotate(0deg) !important;
+}
+
+#card2:hover {
+  transform: translateX(-50px) rotate(0deg) !important;
+}
+
+#card3:hover {
+  transform: translateX(-20px) rotate(0deg) !important;
+}
